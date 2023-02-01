@@ -19,8 +19,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">  
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -40,50 +39,66 @@
   <main>
     <section class="header text-bg-dark">
       <div class="container-fluid text-bg-light">
-        <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand font-ubuntu" href="#"><img id="nav-img" class="mr-2" src="img/logo-black-and-white.png" height="65" width="auto" alt="Mcafee logo"/>The Pat McAfee Show</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-tabs">
-                <li><a href="#" class="nav-link font-ubuntu px-2 text-dark active">Home</a></li>
-                <li><a href="about.html" class="nav-link font-ubuntu px-2 text-secondary">About</a></li>
-                <li><a href="contact.html" class="nav-link px-2 text-secondary">Contact</a></li>
-                <!-- <li><a href="news.html" class="nav-link px-2 text-secondary">News</a></li>
-                <li><a href="promos.html" class="nav-link px-2 text-secondary">Promos</a></li>
-                <li><a href="shows.html" class="nav-link px-2 text-secondary">Shows</a></li> -->
-              </ul>
-              <div class="text-end">
-                <a href="https://www.youtube.com/@ThePatMcAfeeShow" target="_blank"><button type="button" class="btn btn-outline-danger me-2"><i class="fa-solid fa-play"></i>&nbsp; Watch</button></a>
-                <a href="https://store.patmcafeeshow.com/" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-cart-shopping"></i>&nbsp; Store</button></a>
-              </div>
-          </div>
-        </nav>
+        <div class="row mx-auto">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand font-ubuntu" href="#"><img id="nav-img" class="mr-2" src="img/logo-black-and-white.png" height="65" width="auto" alt="Mcafee logo"/>The Pat McAfee Show</a>
+            <button class="navbar-toggler mx-auto mx-sm-2 mx-lg-2 mb-2 mb-sm-0 mb-md-0 mb-lg-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-tabs text-center">
+                  <li><a href="#" class="nav-link font-ubuntu px-2 text-dark active">Home</a></li>
+                  <li><a href="about.html" class="nav-link font-ubuntu px-2 text-secondary">About</a></li>
+                  <li><a href="contact.html" class="nav-link px-2 text-secondary">Contact</a></li>
+                  <!-- <li><a href="news.html" class="nav-link px-2 text-secondary">News</a></li>
+                  <li><a href="promos.html" class="nav-link px-2 text-secondary">Promos</a></li>
+                  <li><a href="shows.html" class="nav-link px-2 text-secondary">Shows</a></li> -->
+                </ul>
+                <div class="text-center">
+                  <a href="https://www.youtube.com/@ThePatMcAfeeShow" target="_blank">
+                    <button type="button" class="btn btn-outline-danger me-2"><i class="fa-solid fa-play"></i>&nbsp; Watch</button>
+                  </a>
+                  <a href="https://store.patmcafeeshow.com/" target="_blank">
+                    <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-cart-shopping"></i>&nbsp; Store</button>
+                  </a>
+                </div>
+            </div>
+          </nav>
+        </div>
       </div>
       <div class="container-fluid hero">
         <div class="container-fluid text-center">
-          <img class="hero-img img-fluid py-3" src="img/Mcafee-background-new.png" alt="McAfee show banner" max-width="100%" height="auto">
+          <img class="hero-img img-fluid py-3" src="img/Mcafee-background-new.png" alt="McAfee show banner" width="auto" height="50%">
           <h1 class="display-5 fw-bold">Let's Ride</h1>
-          <div class="col-lg-6 mx-auto">
+          <div class="col-sm-10 col-md-10 col-lg-10 mx-auto">
             <p class="lead mb-5">"This show F***'N STINKS and the fact that you are listening, we are very, very thankful."<em> &nbsp; &#8212; Pat</em></p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <a href="https://www.youtube.com/channel/UCxcTeAKWJca6XyJ37_ZoKIQ" target="_blank"><button type="button" class="btn btn-danger btn-lg px-4 gap-3"><i class="fa-solid fa-play"></i>&nbsp; Watch the show</button></a>
-              <a href="https://store.patmcafeeshow.com/"><button type="button" class="btn btn-outline-light btn-lg px-4"><i class="fa-solid fa-cart-shopping"></i>&nbsp; Browse some merch</button></a>
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-3">
+                <a href="https://www.youtube.com/channel/UCxcTeAKWJca6XyJ37_ZoKIQ" target="_blank">
+                  <button type="button" class="btn btn-danger btn-lg btn-block px-4"><i class="fa-solid fa-play"></i>&nbsp; Watch the show</button>
+                </a>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mb-3">
+                <a href="https://store.patmcafeeshow.com/" target="_blank">
+                  <button type="button" class="btn btn-outline-light btn-lg btn-block px-4"><i class="fa-solid fa-cart-shopping"></i>&nbsp; Shop our store</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section class="brand-strip bg-light">
-      <div class="container-fluid">
-        <div class="row justify-content-evenly align-items-center">
-          <div class="col-2">
+      <div class="container-fluid text-center">
+        <div class="row align-items-center justify-content-evenly">
+          <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 my-2">
             <a href="https://www.instagram.com/forthebrand/" target="_blank"><img src="img/for-the-brand-circle.png" class="img-fluid"></a>
           </div>
-          <div class="col-2">
+          <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 my-2">
             <a href="https://thepatmcafeefoundation.org/" target="_blank"><img src="img/pat-mcafee-foundation.png" class="img-fluid"></a>
           </div>
-          <div class="col-2">
+          <div class="col-xs-10 col-sm-10 col-md-4 col-lg-4 col-xl-4 my-2">
             <a href="https://www.furthebrand.com/" target="_blank"><img src="img/fur-the-brand-circle.png" class="img-fluid"></a>
           </div>
         </div>
@@ -99,74 +114,98 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <div class="container">
-              <div class="row">
-                <div class="col-5 py-4">
+            <div class="container-fluid">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-sm-12 col-md-10 col-lg-5 py-2">
                   <img class="img-fluid img-thumbnail" src="img/the-pod-square.png" alt="The Pod logo"/>
                 </div>
-                <div class="col-7 py-4">
-                  <h1>The Pod</h1>
+                <div class="col-sm-12 col-md-10 col-lg-7 py-2">
+                  <h2 class="text-center">The Pod</h2>
                   <p class="lead mb-4">The Pod is presented by the Pat McAfee Show 2.0 Pat and the support cast of his show come together to cut loose,
                     break balls, and laugh at life and what's going on in the world. Kick back and have fun with us. <b>Subscribe, rate and review!</b>
                   </p>
-                  <a href="https://www.youtube.com/@ThePodPMI" target="_blank"><button type="button" class="btn btn-danger btn-lg px-4 gap-3"><i class="fa-solid fa-play"></i>&nbsp; The Pod</button></a>
-                  <a href="https://podcasts.apple.com/us/podcast/the-pod/id1435214757" target="_blank"><button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-solid fa-podcast"></i>&nbsp; Apple Podcasts</button></a>
-                  <a href="https://open.spotify.com/show/1Z9gEuGf562fInSsMoLqyu" target="_blank"><button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-brands fa-spotify"></i>&nbsp; Spotify</button></a>
+                  <a href="https://www.youtube.com/@ThePodPMI" target="_blank">
+                    <button type="button" class="btn btn-danger btn-lg btn-block px-4 gap-3"><i class="fa-solid fa-play"></i>&nbsp; The Pod</button>
+                  </a>
+                  <a href="https://podcasts.apple.com/us/podcast/the-pod/id1435214757" target="_blank">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block px-4 gap-3"><i class="fa-solid fa-podcast"></i>&nbsp; Apple Podcasts</button>
+                  </a>
+                  <a href="https://open.spotify.com/show/1Z9gEuGf562fInSsMoLqyu" target="_blank">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block px-4 gap-3"><i class="fa-brands fa-spotify"></i>&nbsp; Spotify</button>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="10000">
-            <div class="container">
-              <div class="row">
-                <div class="col-7 py-4">
-                  <h1>The Pat McAfee Show 2.0</h1>
-                  <p class="lead mb-4">On The Pat McAfee Show 2.0, Pat McAfee and his friends deliver one of a kind opinions that won't be heard anywhere else. Pat's a retired NFL All-Pro punter who has zero filter.
-                  A common man who has experience in an extremely uncommon professional athlete lifestyle is a beautiful concoction of hilarity for the average Joe. Both relatable and ridiculous,
-                  The Pat McAfee Show 2.0 promises to inform, intrigue, and entertain. <b>Subscribe, rate & review!</b></p>
-                  <a href="https://www.youtube.com/@ThePatMcAfeeShow" target="_blank"><button type="button" class="btn btn-danger btn-lg px-4 gap-3"><i class="fa-solid fa-play"></i>&nbsp; The Pat McAfee Show</button></a>
-                  <a href="https://podcasts.apple.com/us/podcast/the-pat-mcafee-show-2-0/id1435183458" target="_blank"><button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-solid fa-podcast"></i>&nbsp; Apple Podcasts</button></a>
-                  <a href="https://open.spotify.com/show/1ol0jP8hrNHydiAd38G6B1" target="_blank"><button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-brands fa-spotify"></i>&nbsp; Spotify</button></a>
-                </div>
-                <div class="col-5 py-4">
+            <div class="container-fluid">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-sm-10 col-md-10 col-lg-5 py-4">
                   <img class="img-fluid img-thumbnail" src="img/pms-square.png" alt="The Pat McAfee Show logo"/>
                 </div>
+                <div class="col-sm-12 col-md-10 col-lg-7 py-2">
+                  <h2 class="text-center">The Pat McAfee Show 2.0</h2>
+                  <p class="lead mb-4">Pat McAfee and his friends deliver one of a kind opinions that won't be heard anywhere else. A retired NFL All-Pro punte with zero filter 
+                    is a beautiful concoction of hilarity for the average Joe. Both relatable and ridiculous, The Pat McAfee Show 2.0 promises to inform,
+                    intrigue, and entertain. <b>Subscribe, rate & review!</b></p>
+                  <a href="https://www.youtube.com/@ThePatMcAfeeShow" target="_blank">
+                    <button type="button" class="btn btn-danger btn-lg px-4 gap-3"><i class="fa-solid fa-play"></i>&nbsp; The Pat McAfee Show</button>
+                  </a>
+                  <a href="https://podcasts.apple.com/us/podcast/the-pat-mcafee-show-2-0/id1435183458" target="_blank">
+                    <button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-solid fa-podcast"></i>&nbsp; Apple Podcasts</button>
+                  </a>
+                  <a href="https://open.spotify.com/show/1ol0jP8hrNHydiAd38G6B1" target="_blank">
+                    <button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-brands fa-spotify"></i>&nbsp; Spotify</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="10000">
-            <div class="container">
-              <div class="row">
-                <div class="col-5 py-4">
+            <div class="container-fluid">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-sm-10 col-md-10 col-lg-5 py-4">
                   <img class="img-fluid img-thumbnail" src="img/hammer-dahn-square.png" alt="Hammer Dahn logo"/>
                 </div>
-                <div class="col-7 py-4">
-                  <h1>Hammer Dahn</h1>
+                <div class="col-sm-12 col-md-10 col-lg-7 py-2">
+                  <h1 class="text-center">Hammer Dahn</h1>
                   <p class="lead mb-4">Hammer Dahn is presented by The Pat McAfee Show 2.0. Digs, Gumpy and the guys cover everything you need to 
                   know in the gambling world including all the locks, all the insight, and who you should be fading.
                   You've come to the right place if you're looking for the good, better, and best bets. Watch live on YouTube weekdays 15 minutes
                   after The Pat McAfee Show or download the podcast below. <b>Subscribe, rate & review!</b></p>
-                  <a href="https://www.youtube.com/@HammerDahn" target="_blank"><button type="button" class="btn btn-danger btn-lg px-4 gap-3"><i class="fa-solid fa-play"></i>&nbsp; Hammer Dahn</button></a>
-                  <a href="https://podcasts.apple.com/us/podcast/hammer-dahn-sports-betting/id1441469282" target="_blank"><button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-solid fa-podcast"></i>&nbsp; Apple Podcasts</button></a>
-                  <a href="https://open.spotify.com/show/5OseQNH1vLD3pPR5EY6mAP" target="_blank"><button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-brands fa-spotify"></i>&nbsp; Spotify</button></a>
+                  <a href="https://www.youtube.com/@HammerDahn" target="_blank">
+                    <button type="button" class="btn btn-danger btn-lg px-4 gap-3"><i class="fa-solid fa-play"></i>&nbsp; Hammer Dahn</button>
+                  </a>
+                  <a href="https://podcasts.apple.com/us/podcast/hammer-dahn-sports-betting/id1441469282" target="_blank">
+                    <button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-solid fa-podcast"></i>&nbsp; Apple Podcasts</button>
+                  </a>
+                  <a href="https://open.spotify.com/show/5OseQNH1vLD3pPR5EY6mAP" target="_blank">
+                    <button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-brands fa-spotify"></i>&nbsp; Spotify</button>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="10000">
-            <div class="container">
-              <div class="row">
-                <div class="col-7 py-4">
-                  <h1>That's Hockey Talk</h1>
+            <div class="container-fluid">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-sm-10 col-md-10 col-lg-5 py-4 px-auto">
+                  <img class="img-fluid img-thumbnail" src="img/that-hockey-talk-square.png" alt="That's Hockey Talk logo"/>
+                </div>
+                <div class="col-sm-12 col-md-10 col-lg-7 py-2">
+                  <h1 class="text-center">That's Hockey Talk</h1>
                   <p class="lead mb-4">That's Hockey Talk is presented by The Pat McAfee Show 2.0. Nicky Skates Maraldo, Gumps & Stanley Cup Champion Mike Rupp
                   dive into all the important hockey topics going on in the world to make sure you have your weekly dosage of puck.
                   Come join us for a little hockey talk. <b>Subscribe, rate & review!</b></p>
-                  <a href="https://www.youtube.com/@ThatsHockeyTalk" target="_blank"><button type="button" class="btn btn-danger btn-lg px-4 gap-3"><i class="fa-solid fa-play"></i>&nbsp; That's Hockey Talk</button></a>
-                  <a href="https://podcasts.apple.com/us/podcast/thats-hockey-talk/id1456298001" target="_blank"><button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-solid fa-podcast"></i>&nbsp; Apple Podcasts</button></a>
-                  <a href="https://open.spotify.com/show/0OGsau7pxQzM1kyBNvmTop" target="_blank"><button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-brands fa-spotify"></i>&nbsp; Spotify</button></a>
-                </div>
-                <div class="col-5 py-4 px-auto">
-                  <img class="img-fluid img-thumbnail" src="img/that-hockey-talk-square.png" alt="That's Hockey Talk logo"/>
+                  <a href="https://www.youtube.com/@ThatsHockeyTalk" target="_blank">
+                    <button type="button" class="btn btn-danger btn-lg px-4 gap-3"><i class="fa-solid fa-play"></i>&nbsp; That's Hockey Talk</button>
+                  </a>
+                  <a href="https://podcasts.apple.com/us/podcast/thats-hockey-talk/id1456298001" target="_blank">
+                    <button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-solid fa-podcast"></i>&nbsp; Apple Podcasts</button>
+                  </a>
+                  <a href="https://open.spotify.com/show/0OGsau7pxQzM1kyBNvmTop" target="_blank">
+                    <button type="button" class="btn btn-secondary btn-lg px-4 gap-3"><i class="fa-brands fa-spotify"></i>&nbsp; Spotify</button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -184,16 +223,15 @@
     </section>
   </main>
   <footer class="text-bg-dark border-top">
-    <div class="container">
-      <div class="row text-start">
-        <div class="col-4 col-md-2 mb-3">
-          <h5></h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a></li>
-            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">Contact</a></li>
-            <li class="nav-item mb-2"><a href="https://store.patmcafeeshow.com/" target="_blank" class="nav-link p-0 text-muted">Store</a></li>
-            <li class="nav-item mb-2"><a href="https://www.youtube.com/@ThePatMcAfeeShow" target="_blank" class="nav-link p-0 text-muted">Watch</a></li>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="mb-3 d-flex justify-content-center text-center">
+          <ul class="list-unstyled">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-secondary">About</a></li>
+            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-secondary">Contact</a></li>
+            <li class="nav-item mb-2"><a href="https://store.patmcafeeshow.com/" target="_blank" class="nav-link p-0 text-secondary">Store</a></li>
+            <li class="nav-item mb-2"><a href="https://www.youtube.com/@ThePatMcAfeeShow" target="_blank" class="nav-link p-0 text-secondary">Watch</a></li>
             <!--<li class="nav-item mb-2"><a href="news.html" class="nav-link p-0 text-muted">News</a></li>-->
           </ul>
         </div>
@@ -207,20 +245,24 @@
           </ul>
         </div> -->
       </div>
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>© 2023 Pat McAfee, Inc. All rights reserved.</p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-light" href="https://twitter.com/patmcafeeshow" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
-          <li class="ms-3"><a class="link-light" href="https://www.instagram.com/patmcafeeshow/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
-          <li class="ms-3"><a class="link-light" href="https://www.facebook.com/PatMcAfeeSho/" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
-          <li class="ms-3"><a class="link-light" href="https://www.youtube.com/@ThePatMcAfeeShow" target="_blank"><i class="fa-brands fa-youtube fa-2x"></i></a></li>
-        </ul>
+      <div class="row align-items-center justify-content-evenly text-center py-4 border-top">
+        <div class="text-center">
+          <p>© 2023 Pat McAfee, Inc. All rights reserved.</p>
+        </div>
+        <div class="text-center">
+          <ul class="list-unstyled list-group list-group-horizontal align-items-center justify-content-center">
+            <li class="ms-3"><a class="link-light" href="https://twitter.com/patmcafeeshow" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+            <li class="ms-3"><a class="link-light" href="https://www.instagram.com/patmcafeeshow/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+            <li class="ms-3"><a class="link-light" href="https://www.facebook.com/PatMcAfeeSho/" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+            <li class="ms-3"><a class="link-light" href="https://www.youtube.com/@ThePatMcAfeeShow" target="_blank"><i class="fa-brands fa-youtube fa-2x"></i></a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>
     
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>

@@ -114,6 +114,9 @@ footer {
   padding-top: 2rem;
 }
 
+footer.ul.li.a {
+  color: #fff;
+}
 
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -243,6 +246,41 @@ h1 {
   color: white;
 }
 
+
+/* For small screen devices (576px and below) */
+@media only screen and (max-width: 576px) {
+  .carousel-item {
+    height: 56rem;
+  }
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .carousel-item {
+    height: 56rem;
+  }
+}
+ 
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+  .carousel-item {
+    height: 32rem;
+  }
+}
+ 
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+  .carousel-item {
+    height: 32rem;
+  }
+}
+ 
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  .carousel-item {
+    height: 32rem;
+  }
+}
 
 
 
