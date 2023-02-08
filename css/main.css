@@ -93,6 +93,10 @@ body {
     padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 section {
   margin-left: 5%;
   margin-right: 5%;
@@ -155,75 +159,60 @@ h1 {
 
 /* ABOUT
 ------------------------------------------------ */
-.card-links {
+.about-header {
+  padding-bottom: 0;
+}
+
+.team-links {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: white;
 }
 
-.card-links:hover {
+.team-links:hover {
   text-decoration: none;
   color: white;
 }
 
-.about-card-images {
-  background-size: cover
+.team-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: -1rem;
 }
 
-
-
-#aj {
-  background: url("../img/profile-aj.png") no-repeat;
+.team-image-overlay {
+  height: 6.7rem;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  transform: translateY(-6.5rem);
+  margin-bottom: -2rem;
+  color: white;
+  background-color: hsla(0, 0%, 0%, 0.50);
+  border-radius: rounded
 }
 
-#ty {
-  background: url("../img/profile-ty.png") no-repeat;
+.team-follow-button {
+  background-color: #1A8CD8;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 0.375rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  vertical-align: center;
+  transition: 0.15s
+  
 }
 
-#connor {
-  background: url("../img/profile-connor.png") no-repeat;
+.team-follow-button:hover {
+  background-color:#2e59cf;
 }
 
-#tony {
-  background: url("../img/profile-tony.png") no-repeat;
-}
-
-#zito {
-  background: url("../img/profile-zito.png") no-repeat;
-}
-
-#nick {
-  background: url("../img/profile-nick.png") no-repeat;
-}
-
-#foxy {
-  background: url("../img/profile-evan.png") no-repeat;
-}
-
-#gumpy {
-  background: url("../img/profile-gump.png") no-repeat;
-}
-
-#mitt {
-  background: url("../img/profile-mitt.png") no-repeat;
-}
-
-#bruce {
-  background: url("../img/profile-bruce.png") no-repeat;
-}
-
-#bill {
-  background: url("../img/profile-bill.png") no-repeat;
-}
-
-#dirdy {
-  background: url("../img/profile-dirdy.png") no-repeat;
-}
-
-#phil {
-  background: url("../img/profile-phil.png") no-repeat;
-}
 
 /* CAROUSEL
 -------------------------------------------------- */
@@ -246,40 +235,178 @@ h1 {
   color: white;
 }
 
+.arrow-btn {
+  color: #fff;
+  font-size: 2rem;
+}
 
-/* For small screen devices (576px and below) */
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+   /* CAROUSEL
+-------------------------------------------------- */
+
+
+/* Extra small screen devices (576px and below) */
 @media only screen and (max-width: 576px) {
   .carousel-item {
-    height: 56rem;
+    height: 60rem;
   }
 }
 
-/* Small screen devices (600px and above) */
+/* Small screen devices (577px and above) */
 @media only screen and (min-width: 577px) and (max-width: 768px) {
   .carousel-item {
-    height: 56rem;
+    height: 50rem;
   }
 }
  
 /* Medium screen devices (768px and above) */
 @media only screen and (min-width: 768px) {
   .carousel-item {
-    height: 32rem;
+    height: 48rem;
   }
 }
  
-/* Big screen devices (889px and above) */
-@media only screen and (min-width: 889px) {
+/* Large screen devices (992px and above) */
+@media only screen and (min-width: 992px) {
   .carousel-item {
-    height: 32rem;
+    height: 36rem;
   }
 }
  
-/* Extra big screen devices (1200px and above) */
+/* Extra Large screen devices (1200px and above) */
 @media only screen and (min-width: 1200px) {
   .carousel-item {
-    height: 32rem;
+    height: 34rem;
   }
+}
+
+
+/* ABOUT
+------------------------------------------------ */
+
+/* Extra small screen devices (576px and below) */
+@media only screen and (max-width: 576px) {
+  .team-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+  }
+
+  .team-image-overlay {
+    height: 6.7rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(-6.5rem);
+    margin-bottom: -2rem;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    border-radius: rounded
+  }
+
+}
+
+
+/* Small screen devices (577px and above) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .team-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+  }
+
+  .team-image-overlay {
+    height: 6.7rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(-6.5rem);
+    margin-bottom: -2rem;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    border-radius: rounded
+  }
+
+}
+
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+  .team-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+  }
+
+  .team-image-overlay {
+    height: 6.7rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(-6.5rem);
+    margin-bottom: -2rem;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    border-radius: rounded
+  }
+
+}
+
+
+/* Large screen devices (992px and above) */
+@media only screen and (min-width: 992px) {
+  .team-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+  }
+
+  .team-image-overlay {
+    height: 6.7rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(-6.5rem);
+    margin-bottom: -2rem;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    border-radius: rounded
+  }
+
+}
+
+
+/* Extra Large screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  .team-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+  }
+
+  .team-image-overlay {
+    height: 7rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(-6.5rem);
+    margin-bottom: -2rem;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    border-radius: rounded
+  }
+
 }
 
 
