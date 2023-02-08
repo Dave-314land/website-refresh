@@ -159,9 +159,13 @@ h1 {
 
 /* ABOUT
 ------------------------------------------------ */
+.about-header {
+  padding-bottom: 0;
+}
+
 .team-links {
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: white;
 }
@@ -175,19 +179,23 @@ h1 {
   width: 100%;
   height: auto;
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: -1rem;
 }
 
 .team-image-overlay {
-  height: 6rem;
+  height: 6.7rem;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
-  transform: translateY(-8rem);
+  transform: translateY(-6.5rem);
   margin-bottom: -2rem;
   color: white;
   background-color: hsla(0, 0%, 0%, 0.50);
   border-radius: rounded
+}
+
+.team-follow-button {
+  background-color: #1A8CD8
 }
 
 
@@ -213,14 +221,23 @@ h1 {
 }
 
 
-/* For small screen devices (576px and below) */
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+   /* CAROUSEL
+-------------------------------------------------- */
+
+
+/* Extra small screen devices (576px and below) */
 @media only screen and (max-width: 576px) {
   .carousel-item {
     height: 60rem;
   }
 }
 
-/* Small screen devices (600px and above) */
+/* Small screen devices (577px and above) */
 @media only screen and (min-width: 577px) and (max-width: 768px) {
   .carousel-item {
     height: 50rem;
@@ -234,18 +251,141 @@ h1 {
   }
 }
  
-/* Big screen devices (889px and above) */
+/* Large screen devices (992px and above) */
 @media only screen and (min-width: 992px) {
   .carousel-item {
     height: 36rem;
   }
 }
  
-/* Extra big screen devices (1200px and above) */
+/* Extra Large screen devices (1200px and above) */
 @media only screen and (min-width: 1200px) {
   .carousel-item {
     height: 34rem;
   }
+}
+
+
+/* ABOUT
+------------------------------------------------ */
+
+/* Extra small screen devices (576px and below) */
+@media only screen and (max-width: 576px) {
+  .team-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+  }
+
+  .team-image-overlay {
+    height: 6.7rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(-6.5rem);
+    margin-bottom: -2rem;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    border-radius: rounded
+  }
+
+}
+
+
+/* Small screen devices (577px and above) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .team-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+  }
+
+  .team-image-overlay {
+    height: 6.7rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(-6.5rem);
+    margin-bottom: -2rem;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    border-radius: rounded
+  }
+
+}
+
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+  .team-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+  }
+
+  .team-image-overlay {
+    height: 6.7rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(-6.5rem);
+    margin-bottom: -2rem;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    border-radius: rounded
+  }
+
+}
+
+
+/* Large screen devices (992px and above) */
+@media only screen and (min-width: 992px) {
+  .team-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+  }
+
+  .team-image-overlay {
+    height: 6.7rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(-6.5rem);
+    margin-bottom: -2rem;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    border-radius: rounded
+  }
+
+}
+
+
+/* Extra Large screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+  .team-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -1rem;
+  }
+
+  .team-image-overlay {
+    height: 7rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    transform: translateY(-6.5rem);
+    margin-bottom: -2rem;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    border-radius: rounded
+  }
+
 }
 
 
